@@ -13,46 +13,46 @@
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 		<script>
-			function myFunction() {
-				var x = document.getElementById("myTopNav");
-				if (x.className === "topnav") {
-					x.className += "responsive";
-				} else {
-					x.className = "topnav";}
-				}
+			// function myFunction() {
+				// var x = document.getElementById("myTopNav");
+				// if (x.className === "topnav") {
+					// x.className += "responsive";
+			//	} else {
+			//		x.className = "topnav";}
+			//	}
 
-			window.onscroll = function() {scrollFunction()};
-			function scrollFunction() {
-  			if (document.body.scrollTop > 1 || document.documentElement.scrollTop > 1) {
-    			document.getElementById("myTopNav").style.top = "0";}
-				else {
-    			document.getElementById("myTopNav").style.top = "0";}
-			}
+			//window.onscroll = function() {scrollFunction()};
+			//function scrollFunction() {
+  		//	if (document.body.scrollTop > 1 || document.documentElement.scrollTop > 1) {
+    	//		document.getElementById("myTopNav").style.top = "0";}
+			//	else {
+    	//		document.getElementById("myTopNav").style.top = "0";}
+		//	}
 
-			var prevScrollpos = window.pageYOffset;
-			window.onscroll = function() {
-  				var currentScrollPos = window.pageYOffset;
-  				if (prevScrollpos > currentScrollPos) {
-   					 document.getElementById("navbar").style.top = "0";
-  				} else {
-    				document.getElementById("navbar").style.top = "-100px";
- 				}
-  					prevScrollpos = currentScrollPos;
-				}
-
-
-		</script> 
+		//	var prevScrollpos = window.pageYOffset;
+		//	window.onscroll = function() {
+  		//		var currentScrollPos = window.pageYOffset;
+  			//	if (prevScrollpos > currentScrollPos) {
+   				//	 document.getElementById("navbar").style.top = "0";
+				// } else {
+    			//	document.getElementById("navbar").style.top = "-100px";
+ 				// }
+  				//	prevScrollpos = currentScrollPos;
+				// }
+		</script>
 	</head>
-	<body class="is-preload">
+	<body class="is-preload font-weight-light">
 		<!-- Wrapper -->
-		<nav id="navbar" class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
-			<a class="navbar-brand" href="#about-me">Alex Capi</a>
+		<nav id="navbar" class="navbar navbar-expand-lg navbar-light navbar-color sticky-top">
+			<a class="navbar-brand">
+					<img src="Signature.png" alt="Alex Capi's signature" class="">
+			</a>
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>
 			</button>
 
   			<div class="collapse navbar-collapse" id="navbarSupportedContent">
-				<ul class="navbar-nav mr-auto">
+				<ul class="navbar-nav mr-auto" style="margin:0">
 					<li class="nav-item active">
 						<a class="nav-link" href="#about-me">About <span class="sr-only">(current)</span></a>
 					</li>
@@ -71,22 +71,12 @@
 				</ul>
 			</div>
 			</nav>
-			<!-- <div id="myTopNav" class="topnav icon">
-				<a href="#">Home</a>
-  			<a href="#about-me">About</a>
-  			<a href="#mis-favoritos">Favorites</a>
-  			<a href="#assets-skills">Assets & Skills</a>
-				<a href="#contact">Contact</a>
-				<a href="#footer">Social</a>
-				<a href="javascript:void(0);" class="icon" onclick="myFunction()">
-    			<i class="fa fa-bars"></i></a>
-			</div> -->
 				<!-- split orient-right -->
 					<section class="banner style1 orient-right content-align-left image-position-right fullscreen onscroll-image-fade-in onscroll-content-fade-right">
 						<div class="content">
-							<h1>Alex Capi</h1>
-							<h3><em><b>He/Him/His</b></em></h3>
-							<p class="major">A mid-20s, data-driven Seattleite with over 3 years of experience in areas of client service, organic + paid marketing, office administration, and web design.
+							<h1 class="font-weight-light">Alex Capi</h1>
+							<h3 class="font-weight-light"><em>He/Him/His</em></h3>
+							<p class="major font-weight-light">A mid-20s, data-driven Seattleite with over 3 years of experience in areas of client service, organic + paid marketing, office administration, and web design.
 							<ul class="actions fit">
 								<li><a href="Resume.pdf" target="_blank" class="button primary smooth-scroll-middle">Résumé</a></li>
 								<li><a href="#contact" class="button primary smooth-scroll-middle">Say Hi</a></li>
@@ -102,8 +92,8 @@
 			<div id="about-me" class="divided">
 						<section class="wrapper align-center" style="background-color:black; color:white">
 							<div class="banners1 image">
-								<h2 style="color:white"><em>About Me</em></h2>
-								22 | Ambivert | Ambidextrous | Brother | ENFJ type | Friend | <span style="color:red">L</span><span style="color:orange">G</span><span style="color:gold">B</span><span style="color:green">T</span><span style="color:blue">Q</span><span style="color:purple"><sup>+</sup></span> | Mentor | Social enthusiast</p>
+								<h2 class="font-weight-light" style="color:white"><em>About Me</em></h2>
+								<p class="font-weight-light">22 | Ambivert | Ambidextrous | Brother | ENFJ type | Friend | <span style="color:red">L</span><span style="color:orange">G</span><span style="color:gold">B</span><span style="color:green">T</span><span style="color:blue">Q</span><span style="color:purple"><sup>+</sup></span> | Mentor | Social enthusiast</p>
 							</div>
 						</section>
 			</div>
@@ -111,8 +101,8 @@
 					<!-- spotlight: split orient-left -->
 						<section class="spotlight style1 orient-left content-align-left image-position-center onscroll-image-fade-in">
 							<div class="content">
-								<h2>Personal Development</h2>
-								<p>Born and raised in Yakima, I turn out to be a person of many qualities. As a first-generation Mexican-American, I seized the opportunity to further my education and to affiliate with numerous life-changing organizations and societies, including the Communicatons Department, FBLA-PBL, the Husky Union Building, and many others.</p>
+								<h2 class="font-weight-light">Personal Development</h2>
+								<p class="font-weight-light">Born and raised in Yakima, I turn out to be a person of many qualities. As a first-generation Mexican-American, I seized the opportunity to further my education and to affiliate with numerous life-changing organizations and societies, including the Communicatons Department, FBLA-PBL, the Husky Union Building, and many others.</p>
 								<ul class="actions stacked">
 									<li><a href="#contact" class="button primary">Learn More</a></li>
 								</ul>
@@ -125,7 +115,7 @@
 					<!-- spotlight: split orient-right -->
 					<section class="spotlight style1 orient-right content-align-left image-position-center onscroll-image-fade-in">
 						<div class="content">
-							<h2>Keep Up With Me!</h2>
+							<h2 class="font-weight-light">Keep Up With Me!</h2>
 							<p>Sometimes I like to write about my own life experiences or topics that are worth discussing. My favorite hobbies include exploring Seattle's coffee shops, enjoying such scenic views around the Pacific Northwest, and tuning in on the latest news and trends.</p>
 							<ul class="actions stacked">
 								<li><a href="#footer" class="button primary">Blog (Coming Soon)</a></li>
@@ -140,8 +130,8 @@
 			<div id="mis-favoritos" class="divided">
 
 						<section class="wrapper align-center" style="background-color:black; color:white">
-							<div class="banners1 image">
-								<h2 style="color:white"><em>Mis Favoritos</em></h2>
+							<div class="banners1 image font-weight-light">
+								<h2 class="font-weight-light" style="color:white"><em>Mis Favoritos</em></h2>
 								<p>Projects, samples, and other working materials that I'm proud of.</p>
 							</div>
 						</section>
@@ -218,42 +208,42 @@
 
 					</section>
 
-				<!-- Six -->
+				<!-- Assets & Skills -->
 			<div id="assets-skills" class="divided">
 					<section class="wrapper style1 align-center" style="background-color:black;color:white">
 						<div class="inner">
-							<h2 style="color:white"><em>My Assets & Skills</em></h2>
+							<h2 class="font-weight-light" style="color:white"><em>My Assets & Skills</em></h2>
 							<br>
-							<p>Nelson Mandela once said: <em>"Education is the most powerful weapon which you can use to change the world."</em> By establishing effective goals and initiatives, I can apply several strategies and mindsets to further myself and my clients. These include:</p>
-							<div class="items style1 medium onscroll-fade-in">
+							<p class="font-weight-light">Nelson Mandela once said: <em>"Education is the most powerful weapon which you can use to change the world."</em> By establishing effective goals and initiatives, I can apply several strategies and mindsets to further myself and my clients. These include:</p>
+							<div class="items style1 medium onscroll-fade-in font-weight-light">
 								<section>
-									<span class="icon style2 major fa-chart-bar"></span>
-									<h3 style="color:gold">Analytics</h3>
+									<span class="icon style2 major fa-chart-bar font-weight-light"></span>
+									<h3 class="font-weight-light" style="color:gold">Analytics</h3>
 									<p>Google Analytics for Beginners <a href="https://analytics.google.com/analytics/academy/certificate/yEsloIHWQaehuhMCuNp7Hg" style="color:white">certificate</a> • e-Commerce • Mailchimp • R • Salesforce • Smartsheet</p>
 								</section>
 								<section>
 									<span class="icon style2 major fa-gem"></span>
-									<h3 style="color:gold">Networking</h3>
+									<h3 class="font-weight-light" style="color:gold">Networking</h3>
 									<p>ad-Venturing • Community Engagement • Mentorship • Partnerships • Volunteering</p>
 								</section>
 								<section>
 									<span class="icon solid style2 major fa-info"></span>
-									<h3 style="color:gold">Org. Development</h3>
+									<h3 class="font-weight-light" style="color:gold">Org. Development</h3>
 									<p>Advising • Customer Service • Database + Project Management • Interviewing • Microsoft Office • Reception • Scheduling</p>
 								</section>
 								<section>
 									<span class="icon solid style2 major fa-star"></span>
-									<h3 style="color:gold">Photo/Videography</h3>
+									<h3 class="font-weight-light" style="color:gold">Photo/Videography</h3>
 									<p>Adobe Creative Suite • Canva • Film Production • iMovie • Nikon D3300 • Photoshoots • Storytelling</p>
 								</section>
 								<section>
 									<span class="icon solid style2 major fa-wifi"></span>
-									<h3 style="color:gold">Public Relations + Marketing</h3>
+									<h3 class="font-weight-light" style="color:gold">Public Relations + Marketing</h3>
 									<p>Crisis + Proactive Communications • Event Planning • Hootsuite • Organic + Paid Advertising • Inbound + Outbound Sales • Social Media</p>
 								</section>
 								<section>
 									<span class="icon solid style2 major fa-wrench"></span>
-									<h3 style="color:gold">Web Design + Research</h3>
+									<h3 class="font-weight-light" style="color:gold">Web Design + Research</h3>
 									<p>Cascading Style Sheets (CSS<sub>3</sub>) • GitHub • Hypertext Markup Language (HTML<sub>5</sub>) • Search Engine Optimization (SEO) • UX/UI • Weebly • Wordpress</p>
 								</section>
 							</div>
@@ -261,11 +251,11 @@
 					</section>
 			</div>
 
-				<!-- Seven -->
+				<!-- Contact -->
 			<div id="contact" class="divided">
 					<section class="wrapper style1 align-center">
 						<div class="inner medium">
-							<h2>Want to talk? Get in touch with me today!</h2>
+							<h2 class="font-weight-light"><em>Want to talk? Get in touch with me today!</em></h2>
 							<br>
 							<form method="post" action="https://formspree.io/mnqglvak" target="_blank">
 								<div class="fields">
@@ -310,7 +300,7 @@
 			<div id="footer">
 
 					<section class="wrapper style1 align-center" style="background-image:url('images/seattle.jpg');background-repeat:no-repeat;background-size:100% 100%;opacity:0.95">
-						<div class="inner">
+						<div class="inner font-weight-light">
 							<ul class="icons" style="z-index:2000">
 								<li><a href="https://www.twitter.com/a_alvarez41" target="_blank" class="icon brands style2 fa-twitter"><span class="label">Twitter</span></a></li>
 								<li><a href="https://www.facebook.com/alex.alvarez.94" target="_blank" class="icon brands style2 fa-facebook-f"><span class="label">Facebook</span></a></li>
@@ -318,7 +308,7 @@
 								<li><a href="https://www.linkedin.com/in/alex41" target="_blank" class="icon brands style2 fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
 								<li><a href="https://www.youtube.com/user/aalvarale/videos" target="_blank" class="icon style2 fa-play-circle"><span class="label">Youtube</span></a></li>
 							</ul>
-							<h3 style="color:white">&copy; 2020 Alex Capi</h3>
+							<h4 class="font-weight-light" style="color:white">&copy; 2020 Alex Capi</h4>
 						</div>
 					</section>
 
