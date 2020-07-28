@@ -8690,10 +8690,11 @@ input, select, textarea {
 		float: left;
 		display: block;
 		top: 0;
-		background-color: rgb(0,0,55);
+		background-color: white;
+		opacity: 0;
 		box-shadow: none;
 	  text-align: center;
-	  padding: 14px 35px;
+	  padding: 14px 3px;
 	  text-decoration: none;
 	  font-size: 17px;
   }
@@ -8702,7 +8703,7 @@ input, select, textarea {
 		position: fixed;
 		float: left;
 		display: block;
-		padding: 14px 20px;
+		padding: 14px 16px;
 		box-shadow: none;
     text-align: left;
   }
@@ -8710,6 +8711,10 @@ input, select, textarea {
 	padding-left: 100px;
 
   }
+}
+
+.fa.fa-bars{
+	background-color: gold;
 }
 
 
