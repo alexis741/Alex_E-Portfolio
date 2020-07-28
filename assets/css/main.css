@@ -8675,7 +8675,6 @@ input, select, textarea {
 		position: fixed;
 		width: 100%;
 		float: left;
-	  color: #fff;
 	  text-align: left;
 	  padding: 0;
 		background-color: rgb(0,0,55);
@@ -8713,12 +8712,12 @@ input, select, textarea {
   }
   #navbar a {
 	margin-left: 25px;
-	background-color: white;
+	background-color: rgb(0,0,55);
 	opacity: 0.5;
   }
 }
 
 .fa.fa-bars{
 	background-color: white;
-	opacity: 0.5;
+	color: white;
 }
