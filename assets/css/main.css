@@ -8713,7 +8713,8 @@ input, select, textarea {
   }
   #navbar a {
 	margin-left: 25px;
-
+	background-color: white;
+	opacity: 0.5;
   }
 }
 
