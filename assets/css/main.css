@@ -8703,9 +8703,11 @@ input, select, textarea {
 		position: fixed;
 		float: left;
 		display: block;
+		background-color: white;
+		opacity: 0.5;
 		outline: none;
 		box-shadow: none;
-		padding: 14px 16px;
+		padding: 14px 3px;
 		box-shadow: none;
     text-align: left;
   }
@@ -8716,5 +8718,6 @@ input, select, textarea {
 }
 
 .fa.fa-bars{
-	background-color: gold;
+	background-color: white;
+	opacity: 0.5;
 }
