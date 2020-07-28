@@ -8675,7 +8675,6 @@ input, select, textarea {
 		position: fixed;
 		width: 100%;
 		float: left;
-	  display: block;
 	  color: #fff;
 	  text-align: left;
 	  padding: 0;
@@ -8691,7 +8690,8 @@ input, select, textarea {
 		display: block;
 		top: 0;
 		background-color: white;
-		opacity: 0;
+		opacity: 0.5;
+		outline: none;
 		box-shadow: none;
 	  text-align: center;
 	  padding: 14px 3px;
@@ -8703,12 +8703,14 @@ input, select, textarea {
 		position: fixed;
 		float: left;
 		display: block;
+		outline: none;
+		box-shadow: none;
 		padding: 14px 16px;
 		box-shadow: none;
     text-align: left;
   }
   #navbar a {
-	padding-left: 100px;
+	margin-left: 25px;
 
   }
 }
@@ -8716,5 +8718,3 @@ input, select, textarea {
 .fa.fa-bars{
 	background-color: gold;
 }
-
-
