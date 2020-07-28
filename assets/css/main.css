@@ -8703,7 +8703,7 @@ input, select, textarea {
 		float: left;
 		display: block;
 		background-color: white;
-		opacity: 0.5;
+		opacity: 1;
 		outline: none;
 		box-shadow: none;
 		padding: 14px 3px;
